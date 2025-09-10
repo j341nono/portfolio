@@ -2,7 +2,7 @@
 
 Personal portfolio website for Kanade Nonomura, an undergraduate student at Ehime University specializing in Natural Language Processing. This site showcases my academic work, research projects, and technical expertise in NLP and AI.
 
-![Portfolio Screenshot](public/images/og/home.jpg)
+<!-- ![Portfolio Screenshot](public/images/og/home.jpg) -->
 
 ## About This Portfolio
 
