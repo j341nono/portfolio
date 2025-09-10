@@ -1,91 +1,103 @@
-# Magic Portfolio
+# Portfolio
 
-Magic Portfolio is a simple, clean, beginner-friendly portfolio template. It supports an MDX-based content system for projects and blog posts, an about / CV page and a gallery.
+Personal portfolio website for Kanade Nonomura, an undergraduate student at Ehime University specializing in Natural Language Processing. This site showcases my academic work, research projects, and technical expertise in NLP and AI.
 
-View the demo [here](https://demo.magic-portfolio.com).
+![Portfolio Screenshot](public/images/og/home.jpg)
 
-![Magic Portfolio](public/images/og/home.jpg)
+## About This Portfolio
 
-## Getting started
+This website showcases my journey as an NLP researcher and features:
 
-**1. Clone the repository**
-```
-git clone https://github.com/once-ui-system/magic-portfolio.git
-```
+### 📚 Academic Focus
+- **Research Area**: Natural Language Processing with specialization in Representation Learning
+- **Institution**: NLP Laboratory, Ehime University
+- **Status**: Fourth-year undergraduate student
 
-**2. Install dependencies**
-```
+### 🎯 Site Contents
+- **About**: Academic background, research interests, and studies
+- **Work**: Research projects and technical implementations
+- **Blog**: Technical articles and insights about NLP and AI
+- **Gallery**: Visual documentation of projects and achievements
+- **Contact**: Professional networking and collaboration opportunities
+
+## Development
+
+**Install dependencies**
+```bash
 npm install
 ```
 
-**3. Run dev server**
-```
+**Run development server**
+```bash
 npm run dev
 ```
 
-**4. Edit config**
-```
-src/resources/once-ui.config.js
-```
-
-**5. Edit content**
-```
-src/resources/content.js
+**Build for production**
+```bash
+npm run build
 ```
 
-**6. Create blog posts / projects**
-```
-Add a new .mdx file to src/app/blog/posts or src/app/work/projects
-```
+## Tech Stack
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+Built with modern web technologies for optimal performance and maintainability:
 
-## Documentation
+### Core Technologies
+- **[Next.js](https://nextjs.org)** - React framework with SSR/SSG support
+- **[React](https://reactjs.org/)** - Component-based UI library
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript development
+- **[Once UI](https://once-ui.com)** - Modern design system and components
 
-Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfolio/quick-start)
+### Content & Features
+- **[MDX](https://mdxjs.com/)** - Markdown with JSX for blog posts and projects
+- **SEO Optimized** - Automatic meta tags and Open Graph image generation
+- **Responsive Design** - Mobile-first approach with clean, academic aesthetics
+- **Performance** - Optimized loading and rendering for fast user experience
+
+**Requirements:** Node.js v18.17+
 
 ## Features
 
-### Once UI
-- All tokens, components & features of [Once UI](https://once-ui.com)
+### Academic Portfolio Focus
+- Clean, professional design suitable for academic presentations
+- Research-oriented content structure
+- Integration with academic social profiles (GitHub, email)
+- Technical blog for sharing research insights
 
-### SEO
-- Automatic open-graph and X image generation with next/og
-- Automatic schema and metadata generation based on the content file
+### Content Management
+- MDX-powered blog system for technical writing
+- Project showcase with detailed documentation
+- Gallery for visual project presentations
+- Configurable sections (can enable/disable pages as needed)
 
-### Design
-- Responsive layout optimized for all screen sizes
-- Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
+### Technical Features
+- Automatic sitemap and robots.txt generation
+- Schema.org structured data for better SEO
+- Social media link integration
+- Responsive images and optimized assets
 
-### Content
-- Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
-- Generate and display social links automatically
-- Set up password protection for URLs
+## Contact & Collaboration
 
-### Localization
-- A localized, earlier version of Magic Portfolio is available with the next-intl library
-- To use localization, switch to the 'i18n' branch
+I'm always interested in discussing NLP research, potential collaborations, or academic opportunities.
 
-## Creators
+### 📧 Get in Touch
+- **Email**: nonomura@ai.cs.ehime-u.ac.jp
+- **GitHub**: [@j341nono](https://github.com/j341nono)
+- **Affiliation**: NLP Laboratory, Ehime University
+- **Location**: Japan (Asia/Tokyo)
 
-Lorant One: [Threads](https://www.threads.net/@lorant.one) / [LinkedIn](https://www.linkedin.com/in/lorant-one/)
-
-## Get involved
-
-- Join the Design Engineers Club on [Discord](https://discord.com/invite/5EyAQ4eNdS) and share your project with us!
-- Deployed your docs? Share it on the [Once UI Hub](https://once-ui.com/hub) too! We feature our favorite apps on our landing page.
+### 🔬 Research Interests
+Feel free to reach out if you're working on or interested in:
+- Natural Language Processing
+- Representation Learning
+- Machine Learning applications in NLP
+- Academic collaborations
 
 ## License
 
-Distributed under the CC BY-NC 4.0 License.
-- Attribution is required.
-- Commercial usage is not allowed.
-- You can extend the license to [Dopler CC](https://dopler.app/license) by purchasing a [Once UI Pro](https://once-ui.com/pricing) license.
+This portfolio is built upon the [Magic Portfolio](https://github.com/once-ui-system/magic-portfolio) template by Once UI, which is distributed under the CC BY-NC 4.0 License.
 
-See `LICENSE.txt` for more information.
+- **Template**: Magic Portfolio by Once UI
+- **Portfolio Content**: © 2024 Kanade Nonomura
+- **Usage**: Personal and academic use with proper attribution
 
-## Deploy with Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fog%2Fhome.jpg)
+See the original template's `LICENSE.txt` for more information about the underlying framework.
